@@ -4,4 +4,4 @@
 
 git push
 
-/sbin/ipset restore -f -! f2b-sshd-all.blacklist
+#/sbin/ipset restore -f -! f2b-sshd-all.blacklist
