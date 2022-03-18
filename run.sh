@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ipset save f2b-sshd -f f2b-sshd.blacklist
+/sbin/ipset save blacklist -f f2b-sshd.blacklist
 
 git push
 
-ipset restore f2b-sshd -f 
+/sbin/ipset restore -f -! f2b-sshd-all.blacklist
