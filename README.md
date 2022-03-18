@@ -10,4 +10,5 @@ git clone https://github.com/fyreman2909/f2b-blacklist.git
 ```shell
 cd f2b-blacklist
 chmod +x run.sh
+./run.sh
 ```
